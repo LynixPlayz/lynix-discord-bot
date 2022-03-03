@@ -22,7 +22,7 @@ else:
 token = configData["Token"]
 prefix = configData["Prefix"]
 
-bot = commands.Bot(command_prefix="c.")
+bot = commands.Bot(command_prefix=prefix)
 randomthing = 0
 players = {}
 queues = {}
@@ -375,4 +375,4 @@ async def on_command_error(ctx, error):
     await ctx.send(f"An error occured: {str(error)}")
 
 
-bot.run("ODI4MDc0ODg0MzY5NjEyODMx.YGkS1Q.0pnPU1CxS-5OkUVGj7FWoEW83ZQ")
+bot.run(token)
