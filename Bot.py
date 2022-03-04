@@ -343,4 +343,4 @@ async def on_command_error(ctx, error):
     await ctx.send(f"An error occured: {str(error)}")
 
 
-bot.run(token)
+bot.run(TOKEN)
