@@ -1,9 +1,7 @@
 import random
 
 import discord  # 40% yes 40% no 20% random
-from discord import FFmpegPCMAudio
 from discord.ext import commands
-import ffmpeg
 import youtube_dl
 import json
 import os
