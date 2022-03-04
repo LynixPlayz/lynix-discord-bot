@@ -18,6 +18,7 @@ else:
 token = configData["Token"]
 prefix = configData["Prefix"]
 
+TOKEN = os.getenv("DISCORD_TOKEN")
 bot = commands.Bot(command_prefix=prefix)
 randomthing = 0
 players = {}
